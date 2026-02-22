@@ -1,0 +1,36 @@
+today will use the same fastmcp library to create a remote mcp server 
+local mcp server work on the same machine(host and client working on same machine)
+remote mcp server are running on the different machine via internet
+advantage of remote mcp server 
+if you want to serve multiple client then use remote mcp server 
+it is powerfull
+lmcp is fast
+rmcp is slow sometime depend on the internet
+Enterprise mostly have the remote mcp server and work with rmcp server
+rmcp server are used by everyone across the world 
+
+##plan of action :
+1.simple remote server[code pov ]
+2.fit the expense tracking mcp code.
+3.deploy-->on fast mcp cloud 
+4.identify problem and rectify in our setup
+
+
+##Steps for a simple remote server
+
+1. Install uv
+2. Create new folder
+3. Open the folder in vs code
+4. Uv init .
+5. Uv add fastmcp
+6. Create a simple server
+7. Run the server uv run main.py
+8. Test the server using mcp inspector
+9. Create a GitHub repo
+10. Git init
+11. git add .
+12. git commit -m "Initial commit: Simple MCP server"
+13. git remote add origin [https://github.com/yourusername/simple-mcp-server.git](https://github.com/yourusername/simple-mcp-server.git)
+14. git push -u origin main
+15. Create an account on FastMCP cloud
+16. Deploy on FastMCP cloud
